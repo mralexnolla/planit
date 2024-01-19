@@ -21,7 +21,7 @@ const InputField: FC<Props> = ({ todo, setTodo, handleAdd }) => {
         onChange={(e) => setTodo(e.target.value)}
       />
       <button className="input__submit" type="submit">
-        Go
+        Add
       </button>
     </form>
   );
